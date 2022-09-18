@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.myapplication.masterDetailFragments.MasterDetailActivity
+import com.example.myapplication.masterDetailNavComp.NavCompActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
 //            } else {
 //                MainActivity.newIntent(this)
 //            }
-            MasterDetailActivity.newIntent(this)
+            NavCompActivity.newIntent(this)
             finish()
         }, 1000)
 
